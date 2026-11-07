@@ -11,7 +11,7 @@ Kostenlose Retro-iPod-App auf GitHub Pages: https://thomasley.github.io/Meine-Au
 
 ## Aufnahmebestand und offene Arbeit
 
-Die eingebettete kurze Originalaufnahme aus Norddeich ist unverändert erhalten. Vollständige Sitzungen für Entspannung und Einschlafhilfe, weitere Orte, Stimmungen und die wählbaren 5/10/15/20 Minuten fehlen noch. Die Auswahl erzeugt noch keine passende neue Aufnahme. Dies wird vor dem Start ausdrücklich angezeigt. Ortsbilder fehlen ebenfalls noch; die Wiedergabe zeigt bislang eine Platzhaltergrafik.
+Die eingebettete kurze Originalaufnahme aus Norddeich ist unverändert erhalten. Vollständige Sitzungen für Entspannung und Einschlafhilfe, weitere Orte, Stimmungen und die wählbaren 5/10/15/20 Minuten fehlen noch. Die Auswahl erzeugt noch keine passende neue Aufnahme. Dies wird vor dem Start ausdrücklich angezeigt. Alle fünf Wohlfühlorte haben ein eigenes Stimmungsbild. Das Hauptmenü zeigt den gespeicherten Ort und die gewählte Dauer/Stimmung. In der Ortsauswahl wechselt die Bildvorschau beim Drehen; OK speichert die Auswahl. Einschlafhilfe schlägt 20 Minuten vor, die Dauer bleibt anschließend frei wählbar. Die Zusammenfassung zeigt alle Einstellungen.
 
 ## Prüfung vom 07.11.2026
 
@@ -20,3 +20,9 @@ Die Steuerungslogik wurde mit simulierten DOM- und Audio-Ereignissen geprüft: s
 ## Hosting
 
 GitHub Pages: main, / (root). Kein Server und keine kostenpflichtigen Dienste erforderlich.
+
+## Stand v3: Bilder und Auswahl
+
+Bilder: Norddeich, Köln am Rhein, FC-Stadion, New York und Bergisches Land. Die ersten drei vorhandenen Motive wurden übernommen, Stadion und New York passend ergänzt. Optimierte WebP-Dateien liegen unter assets/. app.js enthält die Menüsteuerung; index.html enthält weiterhin die unveränderte Originalaufnahme. Es wurden keine neuen Aufnahmen ergänzt.
+
+Zusätzlich geprüft: sämtliche Orte und Bildpfade, alle Stimmungen und Dauern, Einschlafhilfe, Auswahlzusammenfassung, Speicherung und Verhinderung versehentlicher Klicks nach einer Radbewegung. Die Prüfungen simulieren DOM-/Audio-Ereignisse und ersetzen keinen Chrome-Test; die Browserverbindung war weiterhin nicht verfügbar.
