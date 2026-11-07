@@ -36,3 +36,8 @@ Die frühere 20-Sekunden-Hörprobe aus Norddeich (bisher in index.html eingebett
 ## Hosting
 
 GitHub Pages: main, / (root). Kein Server und keine kostenpflichtigen Dienste erforderlich.
+
+## Home-Bildschirm (v4.1)
+
+App-Symbol: Norddeich-Abendlicht mit Mondsichel (icons/). Name auf dem Home-Bildschirm: „Auszeit“. Startet ohne Browserleiste (manifest.webmanifest, apple-mobile-web-app-capable).
+Auf dem iPhone in Chrome: Teilen → „Zum Home-Bildschirm“.
